@@ -11,7 +11,6 @@ int main(void)
 	{
 
 		for (j = k; j <= '9'; j++)
-		
 		{
 			if (i != j)
 			{
@@ -20,7 +19,7 @@ int main(void)
 			}
 			if (i == j)
 			{
-		continue;
+				continue;
 			}
 			if (i == '8' && j == '9')
 			{
