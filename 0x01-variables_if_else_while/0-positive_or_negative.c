@@ -5,7 +5,7 @@
  * main-program entry point.
  * Return:0-no error,non zero value if error.
  **/
-int main()
+int main(void)
 {
 	int n;
 
@@ -15,11 +15,11 @@ int main()
 	{
 		printf("%d is positive\n", n);
 	}
-	else (n <= 0);
+	if (n < 0);
 {
 	printf("%d is negative\n", n);
 }
-else (n == 0)
+else (n == 0);
 	printf("%d is zero\n", n);
 	putchar('\n');
 	return (0);
