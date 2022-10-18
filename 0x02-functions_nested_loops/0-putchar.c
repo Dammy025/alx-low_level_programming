@@ -4,7 +4,7 @@
  * main - print _Putchar
  *
  * Description: print _Putchar
- * Return 0 no error, non zero if error
+ * Return: Always 0 
  */
 int main(void)
 
