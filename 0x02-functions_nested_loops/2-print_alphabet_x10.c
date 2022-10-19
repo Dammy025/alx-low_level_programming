@@ -4,15 +4,15 @@
  *
  * Return: Always 0 (Success)
  */
-void print_alphabet_x10(void)
+void print_alphabet_x10 (void)
 {
-	char har;
-	int a;
+	char ch;
+	int i;
 
-	for (a = 0; a < 10; a++)
+	for (i = 0; i < 10; i++)
 	{
-		for (har = 'a'; har <= 'z'; har++)
-			putchar(har);
+		for (ch = 'a'; ch <= 'z'; ch++)
+			putchar(ch);
 		putchar('\n');
 	}
 }
