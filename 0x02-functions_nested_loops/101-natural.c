@@ -18,13 +18,11 @@ int main(void)
 	{
 		if (!(b % 3 == 0))
 		{
-			if (!(b % 3 == 0))
-			{
-				x = b * 5;
-				s = s + x;
-			}
+			x = b * 5;
+			s = s + x;
 		}
-		printf("%i\n", s);
 	}
-	return (0);
+		printf("%i\n", s);
+		
+		return (0);
 }
