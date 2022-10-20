@@ -22,7 +22,6 @@ int main(void)
 			s = s + x;
 		}
 	}
-		printf("%i\n", s);
-		
+		printf("%i\n", s);	
 		return (0);
 }
